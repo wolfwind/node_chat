@@ -1,0 +1,58 @@
+14 Apr 18:18:05 - push message:[1302776285002]<SYS>: Hello World
+14 Apr 18:18:05 - === Server start on port 8000 ===
+14 Apr 18:18:06 - push message:[1302776286698]<蘋果>: &lt;a href='http://rss.feedsportal.com/c/33277/f/585269/s/14311d64/l/0Ltw0Bnextmedia0N0Crnews0Carticle0Cart0Iid0C254190CIssueID0C20A110A4140CSecID0C10A60Cpvtype0Cr/story01.htm'&gt;等45分才出現　雷凱欣《3D肉蒲團》被批露老點</a>
+<ERROR>"Document: only comments, processing instructions, or whitespace allowed outside of document element"</ERROR>
+<ERROR>"Document: only comments, processing instructions, or whitespace allowed outside of document element"</ERROR>
+14 Apr 18:18:19 - GET /
+14 Apr 18:18:19 -   Request found in route -> /
+14 Apr 18:18:19 -   -> sending index file
+14 Apr 18:18:21 - GET /pullmsg
+14 Apr 18:18:21 -   Request found in route -> /pullmsg
+14 Apr 18:21:20 - GET /
+14 Apr 18:21:20 -   Request found in route -> /
+14 Apr 18:21:20 -   -> sending index file
+14 Apr 18:21:22 - GET /pullmsg
+14 Apr 18:21:22 -   Request found in route -> /pullmsg
+14 Apr 18:23:22 - GET /
+14 Apr 18:23:22 -   Request found in route -> /
+14 Apr 18:23:22 -   -> sending index file
+14 Apr 18:23:24 - GET /pullmsg
+14 Apr 18:23:24 -   Request found in route -> /pullmsg
+14 Apr 18:23:24 - POST /getnewer
+14 Apr 18:23:24 - POST DATA:{ lastmod: '1302776286698' }
+14 Apr 18:23:24 -   Request found in route -> /getnewer
+14 Apr 18:23:30 - POST /postmsg
+14 Apr 18:23:30 - POST DATA:{ mymsg: 'TTTTEST', nick: 'wolf' }
+14 Apr 18:23:30 -   Request found in route -> /postmsg
+14 Apr 18:23:30 - push message:[1302776610396]<wolf>: TTTTEST
+14 Apr 18:23:30 -   -> I got the newer msg, sending...
+14 Apr 18:23:30 - POST /getnewer
+14 Apr 18:23:30 - POST DATA:{ lastmod: '1302776610396' }
+14 Apr 18:23:30 -   Request found in route -> /getnewer
+14 Apr 18:23:33 - POST /postmsg
+14 Apr 18:23:33 - POST DATA:{ mymsg: '<', nick: 'wolf' }
+14 Apr 18:23:33 -   Request found in route -> /postmsg
+14 Apr 18:23:33 - push message:[1302776613241]<wolf>: &lt;
+14 Apr 18:23:33 -   -> I got the newer msg, sending...
+14 Apr 18:23:33 - POST /getnewer
+14 Apr 18:23:33 - POST DATA:{ lastmod: '1302776613241' }
+14 Apr 18:23:33 -   Request found in route -> /getnewer
+14 Apr 18:23:35 - POST /postmsg
+14 Apr 18:23:35 - POST DATA:{ mymsg: '>', nick: 'wolf' }
+14 Apr 18:23:35 -   Request found in route -> /postmsg
+14 Apr 18:23:35 - push message:[1302776615416]<wolf>: &gt;
+14 Apr 18:23:35 -   -> I got the newer msg, sending...
+14 Apr 18:23:36 - POST /getnewer
+14 Apr 18:23:36 - POST DATA:{ lastmod: '1302776615416' }
+14 Apr 18:23:36 -   Request found in route -> /getnewer
+14 Apr 18:23:41 - POST /postmsg
+14 Apr 18:23:41 - POST DATA:{ mymsg: '八拉拉拉^@%$^U%^&(**))*$&#@#$', nick: 'wolf' }
+14 Apr 18:23:41 -   Request found in route -> /postmsg
+14 Apr 18:23:41 - push message:[1302776621653]<wolf>: 八拉拉拉^@%$^U%^&(**))*$&#@#$
+14 Apr 18:23:42 -   -> I got the newer msg, sending...
+14 Apr 18:23:42 - POST /getnewer
+14 Apr 18:23:42 - POST DATA:{ lastmod: '1302776621653' }
+14 Apr 18:23:42 -   Request found in route -> /getnewer
+14 Apr 18:25:42 - POST /getnewer
+14 Apr 18:25:42 - POST DATA:{ lastmod: '1302776621653' }
+14 Apr 18:25:42 -   Request found in route -> /getnewer

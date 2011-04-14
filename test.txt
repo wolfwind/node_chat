@@ -1,0 +1,4 @@
+13 Apr 18:05:58 - push message:[1302689158831]<wolf>: Hello World
+13 Apr 18:05:58 - push message:[1302689158832]<kitty>: Hello World2
+13 Apr 18:05:58 - {}
+13 Apr 18:05:58 - === Server start on port 8000 ===
