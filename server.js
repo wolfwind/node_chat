@@ -44,6 +44,8 @@ var routes = {
 	},
 	'/postmsg':function(req,rsp,post){
 		message.addmsg(post.mymsg, post.nick);
+		rsp.writeHead(200);
+		rsp.end();
 	},
 	'/getlast':function(req,rsp){
 		var msgs = message.getlast();
