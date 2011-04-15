@@ -144,7 +144,7 @@ function mybot(){
 							articles[0].title + "</a>" , botnick);
 		}else{
 			for(i = 0; i < al; i++) {
-				if(last_article ==articles[i].title) break;
+				if(last_article == articles[i].title) break;
 				message.addmsg("<a href='" + articles[i].link + "'>" + 
 							articles[i].title + "</a>" , botnick);
 			}
