@@ -1,3 +1,11 @@
+// Long polling chat server by wolf
+//
+// 程式流程：
+// Server.js ->listen
+// 有request 會傳送到 _handle_req function
+// 然後會嘗試在 routes 找路徑，找不到時就尋找local 靜態檔或送出404
+//
+
 //includes
 var sys = require('sys');
 var http = require('http');
@@ -32,7 +40,7 @@ var routes = {
 		rsp.end();
 	},
 	'/pullmsg':function(req,rsp){
-		http://localhost:888/
+		//http://localhost:888/
 		var msgs = message.getmsg();
 		var rspobj = {
 			messages:msgs,
